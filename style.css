@@ -1,0 +1,313 @@
+@font-face {
+    font-family: 'Graphik LCG';
+    src: local('Graphik LCG Regular'), local('Graphik-LCG-Regular'),
+        url('/fonts/GraphikLCG-Regular.woff2') format('woff2'),
+        url('/fonts/GraphikLCG-Regular.woff') format('woff'),
+        url('/fonts/GraphikLCG-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+    font-family: 'SignPainter';
+    src: local('SignPainter'), local('SignPainter'),
+    url('/fonts/signpainter_housescript.otf') format('otf');
+    
+  }
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    position:absolute;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 130px;
+    
+    color: #c4d812f3;
+    font-family:"Times new roman";
+    font-style: initial;
+    /* text-decoration-line:underline; */
+    text-decoration-color: rgb(19, 22, 175);
+    
+    }
+
+    .undertitle{
+    position:absolute;
+    top: 150px;
+    left: 58%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    
+    color: #c4d812f3;
+    font-family:"Times new roman";
+    font-style: initial;
+    /* text-decoration-line:underline; */
+    text-decoration-color: rgb(19, 22, 175);
+    }
+
+    .titl{
+        position: absolute;
+        top: 0;
+        left: 0;
+    font-size: 22px;
+    color: #0e0101;
+    font-weight: 400;
+    line-height: 24px;
+
+    }
+
+
+    .header{
+        background-color: #012146;
+        height: 80px;
+    }
+    .footer{
+        background-color: #012146;
+        height: 120px;
+    }
+    .header__inner{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+    .footer__inner{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        
+    } 
+    /* .nav__list{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        gap :32px;
+        
+    }
+
+    .nav__list_footer{
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        gap :32px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-family: 'Graphik LCG';
+        font-style: normal;
+        
+        /* font-family: 'Roboto', sans-serif; 
+    } 
+
+    .nav__list_footer h3{
+        font-weight: 400;
+    } */
+
+    .nav__list{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        gap :32px;
+        
+    }
+    
+    .nav__list_footer{
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        gap :180px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-family: 'Graphik LCG';
+        font-style: normal;
+        /* font-family: 'Roboto', sans-serif; */
+    } 
+    
+    .nav__list_footer h4{
+        font-weight: 400;
+        line-height: 20px;
+    }
+    
+
+
+    .nav__item{
+        text-transform: uppercase;
+        font-family: 'Graphik LCG';
+        font-size: 14px;
+    }
+    .nav__item a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .header__phone {  
+        display :flex; 
+        align-items: center;
+        font-size: 18px;
+        color: white;
+    }
+
+    .footer__phone {  
+        display :flex; 
+        align-items: center;
+        font-size: 18px;
+        color: rgb(238, 22, 22);
+    }
+
+    .header__phone a{  
+        display :flex; 
+        align-items: center;
+        font-size: 16px;
+        font-family: 'Graphik LCG';
+        color: white;
+        list-style: none;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+    .footer__phone a{  
+        display :flex; 
+        align-items: center;
+        font-size: 16px;
+        color: white;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Graphik LCG';
+        font-style: normal;
+        font-weight: 500;    
+    }
+    
+    .social_networks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap :20px;
+    }
+
+    .social_networks_footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap :20px;
+        height: auto !important;
+    }
+    
+    
+
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .container div{
+        position: relative;
+        height: 100%;
+    }
+    
+    .container div#main_page{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    background: url(./assets/report.jpg); 
+    background-position: center center;
+    background-attachment: fixed; 
+    background-size: cover; 
+   
+   
+    
+    }
+
+
+    .container div#two_page{
+        background: url(./assets/two_page_back.jpg);
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        align-items: center;
+        }
+        
+        .container div#two_page{
+            background: url(./assets/two_page_back.jpg);
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
+            align-items: center;
+            }
+
+            .container div#three_page{
+                background: url(./assets/three_page_backgr.png);
+                background-position: center center;
+                background-attachment: fixed;
+                background-size: cover;
+                align-items: center;
+                }
+
+
+
+
+            three_page_backgr
+        .grass{
+            position: absolute;
+            
+        }
+
+        .order{
+            color: white;
+            font-size: 32px;
+            text-align: center;
+            padding-top:79px;
+            font-family: 'Graphik LCG';
+            font-style: normal;
+            font-weight: 500;
+        }
+
+        .twopageh3{
+            color: white;
+            font-size: 18px;
+            text-align: center;
+            padding-top:15px;
+            font-family: 'Graphik LCG';
+        font-style: normal;
+        font-weight: 500;
+        }
+
+        .stages{
+            align-items: center;
+            
+        }
+
+        .label3page{
+            
+            color: white;
+            font-family: 'SignPainter';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 50px;
+            text-align: center;
+            padding-top: 95px;
+        }
+
+
+        
+
+        
+
+
+
+
+   
